@@ -1,11 +1,6 @@
 import Link from 'next/link';
 import { twMerge } from 'tailwind-merge';
-
-type MainButtonProps = {
-  makeId: string;
-  year: string;
-  className?: string;
-};
+import { MainButtonProps } from './MainButton.types';
 
 function MainButton({ makeId, year, className }: MainButtonProps) {
   const disabled = !!!(makeId && year);
