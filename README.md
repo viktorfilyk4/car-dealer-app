@@ -23,7 +23,9 @@
 
 ## Development
 
-Run the development server:
+```bash
+npm ci
+```
 
 ```bash
 npm run dev
@@ -32,8 +34,6 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Production
-
-Run:
 
 ```bash
 npm run build
