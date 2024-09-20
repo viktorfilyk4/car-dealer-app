@@ -17,6 +17,9 @@
 ## Requirements
 
 - Node v20.17.0
+- [Editorconfig](https://editorconfig.org/) (development only)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) (development only, if you use VSCode)
+- React snippets plugin for IDE (development only)
 
 ## Development
 
