@@ -3,8 +3,9 @@
 ## Notes
 
 - [`generateStaticParams`](https://nextjs.org/docs/app/api-reference/functions/generate-static-params) is set up to generate only first 50 result pages. That is because of rate-limit from API
-- `Husky / lint-staged` used for automatically linting and prettifying code before commit
-- `App` folder is used only for routing purposes!
+- `Husky / lint-staged` for automatic linting and prettifying code before commit
+- Use [`tailwind-merge`](https://github.com/dcastil/tailwind-merge) for merging Tailwind classes
+- `App` folder only for routing purposes
 - Structure of component's folder is the following:
 
 ```
