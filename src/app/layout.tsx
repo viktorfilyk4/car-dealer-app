@@ -1,13 +1,8 @@
+import { NotistackProvider } from '@/providers/NotistackProvider';
+import { inter } from '@/styles/fonts';
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
 import { ReactNode } from 'react';
-import { Inter } from 'next/font/google';
-import { NotistackProvider } from '@/providers/NotistackProvider';
-
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-});
 
 export const metadata: Metadata = {
   title: 'Car Dealer',
