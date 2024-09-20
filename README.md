@@ -4,6 +4,7 @@
 
 - `generateStaticParams` is set up to generate only first 50 result pages. That is because of rate-limit from API
 - `Husky / lint-staged` used for automatically linting and prettifying code before commit
+- `App` folder is used only for routing purposes!
 - Structure of component's folder is the following:
 
 ```
