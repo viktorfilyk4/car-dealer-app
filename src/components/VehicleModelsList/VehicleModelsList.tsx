@@ -12,7 +12,6 @@ async function VehicleModelsList({
   const url = constructGetModelsApiUrl(vehicleMakeId, vehicleYear);
   const result = await fetcher<GetModelsReponse>(url);
 
-  // TODO: Remove Notistack from the app (not compatible with Server Components)
   if (!result) {
     return <div className='text-red-500'>Fetch error: Could not fetch models</div>;
   }
