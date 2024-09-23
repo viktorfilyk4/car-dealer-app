@@ -45,6 +45,7 @@ npm run build
 npm start
 ```
 
-## Deploy
+## Deployment
 
-Coming soon...
+Used Github Actions and Vercel.  
+Link - https://car-dealer-app-amber.vercel.app/
