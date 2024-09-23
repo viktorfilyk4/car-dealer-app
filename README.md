@@ -49,3 +49,6 @@ npm start
 
 Used Github Actions and Vercel.  
 Link - https://car-dealer-app-amber.vercel.app/
+
+## UI
+[Figma template](https://www.figma.com/design/8I4hoXJoysiDrdth6OPESq/Task-Management-Dashboard---Pickolab-Studio-(Community))
